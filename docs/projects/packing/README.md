@@ -3,9 +3,15 @@
 <img src="Render.png" style="width:300px;">
 
 In the spirit of computational design, the Python code called in this Grasshopper file allows 
-you to uncover the optimal locations for rooms within a structure by simply noting the corresponding adjancencies and floor(s). All you need is a JSON file to produce a generative design.
+you to uncover the optimal locations for rooms within a structure by simply noting the corresponding area,adjancencies, and floor(s). All you need is a JSON file to produce a generative design.
 
 <img src="Grasshopper.png" style="width:750px;">
+
+Through this code, you can view the process in which each bubble is generated and then moved so that it does not collide with other bubbles while remaining touching them. The model also takes into account the size of each room, which is reflected by the area of each bubble.
+
+<img src="Iterations.gif" style="width:500px;">
+
+
 
 <h2>Example Outputs:</h2>
 
